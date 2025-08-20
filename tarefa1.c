@@ -1,15 +1,17 @@
 #include <stdio.h>
-int main(){
-float n1 , n2 , aux;
+int main() {
+    float n1, n2, aux;
 
-printf("Digite o primeiro valor: ");
-scanf("%f", &n1);
+    printf("Digite o primeiro valor: ");
+    scanf("%f", &n1);
 
-printf("Digite o segundo valor: ");
-scanf("%f", &n2);
+    printf("Digite o segundo valor: ");
+    scanf("%f", &n2);
 
-"aux" = "n1" + "n2"
+    aux = n1 + n2;
 
-printf("%f", aux);
-return 0;
+    printf("A soma é: %f\n", aux);
+
+    return 0;
 }
+
