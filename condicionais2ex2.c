@@ -6,7 +6,7 @@ int main() {
     float v1, v2, v3, media;
 
     printf("Digite a opção (A - aritmética, P - ponderada, G - geométrica, H - harmônica): ");
-    scanf(" %c", &opcao);
+    while ((opcao = getchar()) == '\n' || opcao == ' ');
 
     printf("Digite três valores: ");
     scanf("%f %f %f", &v1, &v2, &v3);
